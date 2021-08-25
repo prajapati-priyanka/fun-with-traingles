@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F8EDEB;
+   
+    font-family: 'Lato', sans-serif;
+  
+}
+#heading{
+  
+    
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+    margin: 3rem 0 ;
+}
+#description{
+   font-weight: 600;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.input-container{
+   
+    padding: 1rem;
+    width: 60%;
+    margin: 2rem auto;
+
+
+}
+#check-btn{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+}
+#check-btn:hover{
+    background-color: #FFB4A2;
+}
+input{
+ 
+    padding: 0.6rem;
+    width: 60%;
+    display: block;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    margin: 0.5rem auto;
+}
+label{
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.2rem;
+    text-align: center;
+}
+#output{
+    background-color: #FFB4A2;
+    margin: 2rem auto;
+    width: 60%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+
+
+
+}
+

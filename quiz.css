@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F8EDEB;
+   
+    font-family: 'Lato', sans-serif;
+  
+}
+#quiz-form{
+    /* background-color: red; */
+    max-width: 600px;
+    margin: auto;
+}
+#heading{
+   text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+    margin: 3rem 0 ;
+}
+.question-container{
+    font-weight: 600;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+     padding: 1rem ;
+     border: 1px solid black;
+     border-radius: 0.3rem;
+     
+ }
+ input{
+ 
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    
+    margin: 1rem auto;
+}
+label{
+  
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    text-align: center;
+   
+}
+#submit-btn{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+}
+#submit-btn:hover{
+    background-color: #FFB4A2;
+}
+#output{
+    background-color: #FFB4A2;
+    margin: 2rem auto;
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+
+
+
+}
