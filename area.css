@@ -25,13 +25,13 @@ body {
 }
 .input-container {
   padding: 1rem;
-  width: 60%;
+  max-width: 600px;
   margin: 2rem auto;
 }
 
 input {
   padding: 0.6rem;
-  width: 60%;
+  width: 70%;
   display: block;
   border-radius: 0.3rem;
   border: 1px solid black;
@@ -40,28 +40,28 @@ input {
 label {
   display: block;
   font-size: 1.3rem;
-  font-weight: 600;
   padding: 0.2rem;
   text-align: center;
 }
 #area-btn {
   display: block;
-  margin: 1rem auto;
+  margin: 0 auto;
   padding: 0.6rem;
   border-radius: 0.3rem;
   font-size: 1rem;
   border: 1px solid black;
-  font-weight: bold;
+  font-weight: 300;
   background-color: transparent;
   cursor: pointer;
 }
 #area-btn:hover {
   background-color: #ffb4a2;
+  font-weight: bold;
 }
 #output {
   background-color: #ffb4a2;
   margin: 2rem auto;
-  width: 40%;
+  width: 60%;
   text-align: center;
   padding: 1rem;
   font-size: 1.3rem;
