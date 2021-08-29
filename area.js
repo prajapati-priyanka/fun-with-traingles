@@ -10,10 +10,16 @@ function calculateProductOfSides(b, h){
 function calculateAreaOfTriangle(){
    
   if(inputs[0].value && inputs[1].value){
+    if((inputs[0].value <0  && inputs[1].value >0) || (inputs[0].value >0  && inputs[1].value <0)){
+
+      outputEl.innerText = "Enter positive value, Area cannot be negative";
+
+    }else{
+      var productOfSides = calculateProductOfSides(Number(inputs[0].value), Number(inputs[1].value));
+      var areaOfTriangle = 1/2 * (productOfSides);
+      outputEl.innerText = "Area Of a Triangle is: " + areaOfTriangle;
+    }
       
-  var productOfSides = calculateProductOfSides(Number(inputs[0].value), Number(inputs[1].value));
-  var areaOfTriangle = 1/2 * (productOfSides);
-  outputEl.innerText = "Area Of a Triangle is: " + areaOfTriangle;
 
   }else{
     outputEl.innerText = "Please enter valid details."
