@@ -15,13 +15,17 @@ function checkIsTriangle() {
   );
 
   if (inputs[0].value && inputs[1].value && inputs[2].value) {
-    if (sumOfAngles === 180) {
-      outputEl.innerText = "Yayy! these angles can make a triangle";
+    if (inputs[0].value < 0 || inputs[1].value < 0 || inputs[2].value < 0) {
+      outputEl.innerText = "Please enter positive angles value";
     } else {
-      outputEl.innerText = "Oops! these angles cannot make a triangle";
+      if (sumOfAngles === 180) {
+        outputEl.innerText = "Yayy! these angles can make a triangle";
+      } else {
+        outputEl.innerText = "Oops! these angles cannot make a triangle";
+      }
     }
   } else {
-    outputEl.innerText = "Enter valid angles value";
+    outputEl.innerText = "Please enter valid angles value";
   }
 }
 
