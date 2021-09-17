@@ -4,7 +4,8 @@ var outputEl = document.querySelector('#output');
 
 var correctAnswers = ["yes", "no", "yes", "yes", "yes", "Isosceles", "30°", "Both", "5cm", "Scalene"];
 
-function calculateScore(){
+function calculateScore(e){
+   e.preventDefault();
    var score =0;
    var index =0;
    var formResults = new FormData(quizForm);
@@ -26,4 +27,4 @@ outputEl.innerText = "Your Score: " + score;
 
 
 
-submitBtn.addEventListener('click', calculateScore)
+quizForm.addEventListener('submit', calculateScore)
