@@ -18,7 +18,7 @@ function calculateHypotenusOfTriangle() {
       );
       var hypotenus = Math.sqrt(sumOfSquares).toFixed(2);
   
-      outputEl.innerText = "Length of hypotenus is: " + hypotenus;
+      outputEl.innerText = "Length of hypotenus is: " + hypotenus + " cm";
 
     }else{
       outputEl.innerText = " Please enter the values greater than 0."
